@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgDesk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3455d1"/>
+      <stop offset="100%" stop-color="#9a6ae0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bgDesk)"/>
+
+  <!-- desk -->
+  <rect x="90" y="290" width="460" height="18" rx="4" fill="rgba(255,255,255,0.35)"/>
+  <rect x="120" y="308" width="16" height="60" fill="rgba(255,255,255,0.25)"/>
+  <rect x="500" y="308" width="16" height="60" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- monitor -->
+  <rect x="250" y="150" width="140" height="95" rx="8" fill="rgba(255,255,255,0.18)" stroke="#ffffff" stroke-width="4"/>
+  <rect x="308" y="245" width="24" height="20" fill="rgba(255,255,255,0.3)"/>
+  <rect x="286" y="265" width="68" height="10" rx="4" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- robot / AI head icon on screen -->
+  <g transform="translate(320,197)">
+    <rect x="-32" y="-30" width="64" height="50" rx="12" fill="#ffffff"/>
+    <circle cx="-14" cy="-6" r="6" fill="#4a3fd1"/>
+    <circle cx="14" cy="-6" r="6" fill="#4a3fd1"/>
+    <rect x="-18" y="10" width="36" height="6" rx="3" fill="#4a3fd1"/>
+    <rect x="-4" y="-46" width="8" height="16" fill="#ffffff"/>
+    <circle cx="0" cy="-50" r="6" fill="#7ef0c2"/>
+  </g>
+
+  <!-- chat bubble -->
+  <g transform="translate(475,140)">
+    <path d="M0 0 h120 a16 16 0 0 1 16 16 v55 a16 16 0 0 1 -16 16 h-70 l-25 25 v-25 h-25 a16 16 0 0 1 -16 -16 v-55 a16 16 0 0 1 16 -16 z" fill="#ffffff"/>
+    <circle cx="28" cy="43" r="7" fill="#6b46c1"/>
+    <circle cx="60" cy="43" r="7" fill="#6b46c1"/>
+    <circle cx="92" cy="43" r="7" fill="#6b46c1"/>
+  </g>
+</svg>
